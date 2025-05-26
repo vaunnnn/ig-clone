@@ -1,5 +1,17 @@
+
+
 .nav-item {
     display: flex;
     align-items: center;
     justify-content: start;
+    height: 26px;
+    padding: 8px;
+    margin-block: 2px;
+}
+
+.nav-item p {
+    padding-left: 12px;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 300;
 }

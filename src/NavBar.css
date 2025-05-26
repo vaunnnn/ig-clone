@@ -1,11 +1,14 @@
 * {
     color: white;
+    font-family: "Roboto", sans-serif;
 }
 
 .navBar {
     width: 200px;
     height: 100lvh;
-    padding: 7px;
+    padding: 8px;
+    padding-bottom: 0;
+    border-right: 1px solid hsl(0, 0%, 17%);
 }
 
 .header {
@@ -15,8 +18,8 @@
     justify-content: start;
     margin-bottom: 10px;
 }
+
 .content {
     display: flex;
     flex-direction: column;
-    padding: 8px;
 }

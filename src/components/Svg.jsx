@@ -1,7 +1,7 @@
 import cat from '../assets/images/cat.jpg'
 export const HomeSVG = () => {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" width={20} height={20} viewBox="0 0 24 24">
+        <svg xmlns="http://www.w3.org/2000/svg" width={20} height={24} viewBox="0 0 24 24">
             <path fill="currentColor" d="M5 19v-8.692q0-.384.172-.727t.474-.565l5.385-4.078q.423-.323.966-.323t.972.323l5.385 4.077q.303.222.474.566q.172.343.172.727V19q0 .402-.299.701T18 20h-3.384q-.344 0-.576-.232q-.232-.233-.232-.576v-4.769q0-.343-.232-.575q-.233-.233-.576-.233h-2q-.343 0-.575.233q-.233.232-.233.575v4.77q0 .343-.232.575T9.385 20H6q-.402 0-.701-.299T5 19"></path>
         </svg>
     )
@@ -26,7 +26,7 @@ export const ExploreSVG = () => {
 
 export const ReelsSVG = () => {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16">
+        <svg xmlns="http://www.w3.org/2000/svg" width={20} height={16} viewBox="0 0 16 16">
             <g fill="currentColor">
                 <path d="M6 3a3 3 0 1 1-6 0a3 3 0 0 1 6 0M1 3a2 2 0 1 0 4 0a2 2 0 0 0-4 0"></path>
                 <path d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2zm6 8.73V7.27l-3.5 1.555v4.35zM1 8v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1"></path>
@@ -65,8 +65,8 @@ export const Profile = () => {
 
     const profileImageStyle = {
         borderRadius: "50%",
-        width: "25px",
-        height: "25px"
+        width: "18px",
+        height: "18px"
     };
 
     return <img src={cat} alt="A picture of a cat" style={profileImageStyle} />
