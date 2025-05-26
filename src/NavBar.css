@@ -1,0 +1,22 @@
+* {
+    color: white;
+}
+
+.navBar {
+    width: 200px;
+    height: 100lvh;
+    padding: 7px;
+}
+
+.header {
+    padding: 8px;
+    padding-top: 24px;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 10px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
