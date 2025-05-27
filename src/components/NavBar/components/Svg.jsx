@@ -1,4 +1,4 @@
-import cat from '../assets/images/cat.jpg'
+import cat from '../components/images/cat.jpg'
 export const HomeSVG = () => {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" width={20} height={24} viewBox="0 0 24 24">

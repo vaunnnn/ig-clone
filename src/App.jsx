@@ -1,10 +1,10 @@
-import './App.css'
-import NavigatorBar from './NavBar';
+import './styles/App.css'
+import ProfileDashboard from './pages/Profile';
 
 function App() {
 
   return(<>
-    <NavigatorBar/>
+    <ProfileDashboard/>
   </>)
 
 }
