@@ -1,5 +1,5 @@
 import './NavBar.css'
-import { HomeSVG, SearchSVG, ExploreSVG, ReelsSVG, MessagesSVG, NotifSVG, CreateSVG, Profile } from './components/Svg'
+import { HomeSVG, SearchSVG, ExploreSVG, ReelsSVG, MessagesSVG, NotifSVG, CreateSVG, Profile, AiSVG, ThreadsSVG, MoreSVG} from './components/Svg'
 import NavItem from './components/NavItem'
 
 const NavigatorBar = () => {
@@ -25,7 +25,9 @@ const NavigatorBar = () => {
             </div>
 
             <div className="footer">
-
+                <NavItem icon={AiSVG} name="Meta AI" />
+                <NavItem icon={ThreadsSVG} name="Threads" />
+                <NavItem icon={MoreSVG} name="More" />
             </div>
 
         </div>

@@ -5,10 +5,10 @@
 
 .navBar {
     width: 200px;
-    height: 100lvh;
+    height: 100%;
     padding: 8px;
     padding-bottom: 0;
-    border-right: 1px solid hsl(0, 0%, 17%);
+    border-right: 1px solid #282828;
 }
 
 .header {
@@ -20,6 +20,12 @@
 }
 
 .content {
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+}
+
+.footer {
     display: flex;
     flex-direction: column;
 }

@@ -66,9 +66,34 @@ export const Profile = () => {
     const profileImageStyle = {
         borderRadius: "50%",
         width: "18px",
-        height: "18px"
+        height: "18px",
+        border: "2px solid white"
     };
 
     return <img src={cat} alt="A picture of a cat" style={profileImageStyle} />
 
+}
+
+export const AiSVG = () => {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24">
+            <path fill="currentColor" d="M12 22q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22m0-2q3.35 0 5.675-2.325T20 12t-2.325-5.675T12 4T6.325 6.325T4 12t2.325 5.675T12 20m0-8"></path>
+        </svg>
+    )
+}
+
+export const ThreadsSVG = () => {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24">
+            <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.25 8.505c-1.577-5.867-7-5.5-7-5.5s-7.5-.5-7.5 8.995s7.5 8.996 7.5 8.996s4.458.296 6.5-3.918c.667-1.858.5-5.573-6-5.573c0 0-3 0-3 2.5c0 .976 1 2 2.5 2s3.171-1.027 3.5-3c1-6-4.5-6.5-6-4" color="currentColor"></path>
+        </svg>
+    )
+}
+
+export const MoreSVG = () => {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" width={24} height={20} viewBox="0 0 16 16">
+            <path fill="currentColor" d="M0 1h16v2H0zm0 4h16v2H0zm0 4h16v2H0zm0 4h16v2H0z"></path>
+        </svg>
+    )
 }
